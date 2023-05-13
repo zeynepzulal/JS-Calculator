@@ -1,0 +1,73 @@
+body{
+    position: absolute;
+    background-color: rgb(247, 235, 219);
+    align-items: center;
+}
+
+
+h1{
+    margin: 10px 45px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: deeppink;
+}
+
+
+.calc{
+    width: 300px;
+    border: 5px solid black;
+    background-color: palegreen;
+    align-items: center;
+}
+
+
+.field input{
+    margin: 10px 45px;
+    width: 200px;
+    height: 40px;
+    border: 4px solid black;
+    background-color: beige;
+    text-align: right;
+}
+
+.tumTuslar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.islemler button{
+   
+    margin: 10px 5px;
+    padding: 8px 15px;
+    background-color: rgb(137, 205, 247) ;
+    
+}
+
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(2,1);
+    gap: 0rem;
+    text-align: center;
+}
+.numbers button{
+  margin : 10px 5px;
+  padding: 8px 15px;
+  background-color: pink;
+}
+
+.bolme{
+    margin: 10px 5px;
+    padding: 8px 15px;
+    background-color: rgb(137, 205, 247)
+    
+}
+
+.esittir{
+    margin: 10px 5px;
+    padding: 8px 15px;
+    width: 40px;
+    height: 200px;
+    background-color: rgb(137, 205, 247)
+}
